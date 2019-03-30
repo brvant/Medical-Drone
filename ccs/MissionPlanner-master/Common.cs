@@ -12,7 +12,7 @@ namespace MissionPlanner
         public static Form LoadingBox(string title, string promptText)
         {
             Form form = new Form();
-            System.Windows.Forms.Label label = new System.Windows.Forms.Label();
+            System.Windows.Forms.Label label = new System.Windows.Forms.Label(); 
             System.ComponentModel.ComponentResourceManager resources =
                 new System.ComponentModel.ComponentResourceManager(typeof(MainV2));
             form.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
